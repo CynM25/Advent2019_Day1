@@ -62,6 +62,7 @@ def fuel_requirements(i):
 print(fuel_requirements(keys))
 
 
+#Part 2
 def individual_fuel(i):
     
     for x in keys:
@@ -78,4 +79,4 @@ def individual_fuel(i):
 for i in range(100):
     other_list.append(individual_fuel(keys[i]))
 
-print("Part 2 answer: " + str(sum(other_list)))   #Answer to Part 2 (did not save code for Part 1 will come back to re-code)
+print("Part 2 answer: " + str(sum(other_list)))
